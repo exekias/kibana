@@ -53,6 +53,8 @@ export enum ES_FIELD_TYPES {
   LONG = 'long',
   SHORT = 'short',
 
+  HISTOGRAM = 'histogram',
+
   NESTED = 'nested',
   BYTE = 'byte',
   IP = 'ip',
@@ -77,4 +79,5 @@ export enum KBN_FIELD_TYPES {
   CONFLICT = 'conflict',
   OBJECT = 'object',
   NESTED = 'nested',
+  HISTOGRAM = 'histogram',
 }

@@ -149,6 +149,7 @@ export const termsBucketAgg = new BucketAggType({
         KBN_FIELD_TYPES.DATE,
         KBN_FIELD_TYPES.IP,
         KBN_FIELD_TYPES.STRING,
+        KBN_FIELD_TYPES.HISTOGRAM,
       ],
     },
     {

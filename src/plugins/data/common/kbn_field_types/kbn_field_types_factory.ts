@@ -88,6 +88,10 @@ export const createKbnFieldTypes = (): KbnFieldType[] => [
     esTypes: [ES_FIELD_TYPES.ATTACHMENT],
   }),
   new KbnFieldType({
+    name: KBN_FIELD_TYPES.HISTOGRAM,
+    esTypes: [ES_FIELD_TYPES.HISTOGRAM],
+  }),
+  new KbnFieldType({
     name: KBN_FIELD_TYPES.MURMUR3,
     esTypes: [ES_FIELD_TYPES.MURMUR3],
   }),
